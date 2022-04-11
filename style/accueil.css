@@ -79,7 +79,10 @@ button:active {
   text-align: center;
   color: rgb(24, 255, 255);
 }
-#section-2{
+#section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   cursor: pointer;
 }
 #section-2,
@@ -90,6 +93,10 @@ button:active {
 #section-prof img {
   width: 60%;
   height: 50% !important;
+}
+#section-2 a button {
+  width: 30ch;
+  height: 6ch;
 }
 #section-2 div,
 #section-prof div {
