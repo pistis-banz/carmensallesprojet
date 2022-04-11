@@ -1,0 +1,43 @@
+@import url("composant/header.css");
+@import url("global.css");
+
+body {
+    background: rgb(255, 255, 255);
+}
+#section-couverture {
+    padding: 1rem;
+    padding-top: 5rem;
+    height: 10vhs;
+}
+
+#section-couverture h1{
+    margin:  1rem;
+    font-size: 10rem;
+}
+
+.sections {
+    position: relative;
+    margin: 1rem;
+    margin-top: 10rem;
+    padding: 1rem;
+    width: 75%;
+    min-height: 80vh;
+    left: 10%;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, .7);
+     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+.sections article {
+    padding: 2rem;
+    text-align: justify;
+    white-space: pre-line;
+    font-size: 1.3rem;
+}
+.sections article h2 {
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+#a-propos-du-site {
+    padding: 2rem;
+    min-height: auto;
+}

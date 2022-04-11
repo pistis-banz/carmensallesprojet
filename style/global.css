@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../ressources/police/OpenSans/OpenSansMedium.ttf");
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("../ressources/police/Oswald/Oswald-Bold.ttf");
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  font-size: 100%;
+}
+body {
+  background-color: #dfe6e9;
+  color: rgb(0, 0, 0);
+  line-height: 1.5;
+  width: 100vw;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3 {
+  font-family: Oswald;
+}
+img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+button,
+a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+}
+button:hover {
+  box-shadow: 0 30px 30px rgba(255, 255, 255, 0.5);
+}
+#section-couverture,
+.sections {
+  position: relative;
+  padding-top: 5rem;
+}
+#section-couverture {
+  width: 100%;
+  min-height: 90vh;
+}
+#section-couverture h1 {
+  margin: 1rem;
+  font-size: 2.2vw;
+}
+.sections img {
+  -webkit-filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.5));
+}
+
+footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 5rem;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.5rem;
+  background: rgb(55, 71, 79);
+  color: white;
+}
+.darkmode * {
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+}
+.darkmode  {
+  background: rgb(18,18,18);
+}
+.darkmode .sections {
+  color: rgb(255, 255, 255) !important;
+}
+.darkmode .sections img {
+  -webkit-filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.5));
+  filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.5));
+}
+.darkmode * img {
+  -webkit-filter: brightness(.8) contrast(1.2);
+          filter: brightness(.8) contrast(1.2);
+}
+.darkmode .sections article{
+  background: rgb(50, 50, 50);
+}

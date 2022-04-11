@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58332 264.58334"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata856">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Inspire Studio</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:description>Thank you for using this artwork. Feel free to visit our page https://www.pinterest.com.au/inspirestudiobox for more designs. We wish you have a wonderful day, everyday. Amitabha</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:10.5833;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect35197"
+     width="264.58334"
+     height="264.58334"
+     x="0"
+     y="0" />
+  <g
+     id="g868"
+     transform="matrix(0.97314057,0,0,0.97314057,3.2567483,3.8498043)"
+     style="stroke-width:1.0276">
+    <path
+       style="fill:none;stroke:#4d4d4d;stroke-width:8.1566;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 180.39721,163.14712 c -6.72459,-1.98336 -18.75605,-5.59742 -24.37234,-7.68974 l -10.03287,9.98568 c -10.70401,-3.99333 -20.432,-10.24712 -28.51833,-18.33345 -8.08634,-8.08634 -14.34013,-17.81433 -18.333466,-28.51834 l 9.985766,-10.03279 c -2.09276,-5.61746 -5.70789,-17.652758 -7.69098,-24.376543 -0.78049,-2.64631 -3.532851,-4.108448 -6.161266,-3.261751 L 74.74179,87.534182 c -2.628415,0.846697 -4.814248,3.774202 -4.669146,6.531243 1.29267,24.561755 14.883392,51.197345 32.065656,68.379625 17.18228,17.18227 43.81787,30.77299 68.37963,32.06567 2.75704,0.1451 5.68454,-2.04073 6.53124,-4.66915 l 6.61399,-20.53194 c 0.8467,-2.62842 -0.61732,-5.38132 -3.26595,-6.16251 z"
+       id="path35179" />
+    <path
+       id="path35185"
+       style="fill:none;stroke:#0573e1;stroke-width:8.15658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 138.58119,85.712944 a 40.289237,40.06341 45 0 1 28.44201,11.847218 v 0 a 40.289237,40.06341 45 0 1 11.84723,28.442018" />
+    <path
+       id="path35187"
+       style="fill:none;stroke:#0573e1;stroke-width:8.15658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 139.43624,69.453155 a 55.693943,55.381769 45 0 1 39.31692,16.377028 v 0 a 55.693943,55.381769 45 0 1 16.37702,39.316917" />
+    <path
+       id="path35189"
+       style="fill:none;stroke:#0573e1;stroke-width:8.15658;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 137.72608,101.97275 a 24.884537,24.745054 45 0 1 17.56714,7.31739 v 0 a 24.884537,24.745054 45 0 1 7.3174,17.56715" />
+  </g>
+</svg>

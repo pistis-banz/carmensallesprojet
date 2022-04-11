@@ -1,0 +1,106 @@
+@import url("composant/header.css");
+@import url("global.css");
+
+#section-couverture {
+  padding: 2rem;
+  padding-top: 3rem;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#section-couverture div {
+  margin: 2rem;
+}
+#section-couverture article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#section-couverture article h1 {
+  font-size: 3rem;
+}
+#section-couverture #boite-d-image {
+  margin: 1rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-flow: column wrap;
+}
+#section-couverture #boite-d-image img {
+  margin: 0.2rem;
+  width: 12rem;
+  height: 12rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.conteneur-principal {
+  margin-top: 2rem;
+  width: 100vw;
+}
+#conteneur-principal #images {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#conteneur-principal #images .img-conteneur {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  height: 90%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+#conteneur-principal #images .img-conteneur img {
+  margin: 0.5rem;
+  width: 90%;
+  height: 25rem;
+  border-radius: 10px;
+}
+#conteneur-principal #images .img-conteneur .img-info {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 90%;
+  font-size: 1.5vw;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+@media screen and (max-width: 980px) {
+  #section-couverture #boite-d-image {
+   display: none;
+  }
+  #conteneur-principal #images {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #conteneur-principal #images .img-conteneur {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 
+    60vw;
+    height: 90%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (max-width: 500px) {
+  #conteneur-principal #images .img-conteneur .img-info {
+    font-size: 2vw;
+  }
+}
+
+.darkmode  #conteneur-principal #images .img-conteneur {
+  background: rgb(50, 50, 50);
+}

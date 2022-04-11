@@ -1,0 +1,40 @@
+@import url("global.css");
+@import url("composant/header.css");
+
+#section-couverture {
+  padding: 5rem;
+  min-height: auto;
+  height: auto;
+}
+#news-conteneur {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.actu {
+  position: relative;
+  left: calc(60vw - 50%);
+  margin: 1rem;
+  margin-top: 3rem;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actu h2 {
+  margin: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.actu img {
+  margin: 1rem;
+  width: 60vw;
+  height: 30rem;
+}
+.actu p {
+  margin: 1ch;
+  text-align: justify;
+  white-space: pre-line;
+}

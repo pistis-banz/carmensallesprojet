@@ -1,0 +1,148 @@
+@import url("composant/header.css");
+@import url("global.css");
+
+body {
+  overflow-x: hidden;
+  font-family: Open Sans;
+  background-color: #dfe6e9;
+}
+#section-couverture {
+  margin-bottom: 2rem;
+  padding-top: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background: url("../ressources/images/infra.jpg") no-repeat center;
+  background-size: cover;
+}
+#section-couverture article {
+  position: relative;
+  left: 0;
+  width: 40%;
+  margin: 1rem;
+  line-height: 2;
+  margin-top: 4rem;
+  padding: 1rem;
+  text-align: center;
+  background: rgb(55, 71, 79);
+  color: white;
+  transform: translateZ(5px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+#section-couverture article h1 {
+  margin: 1rem;
+  font-size: 2.2rem;
+}
+#section-couverture article h2 {
+  margin: 1rem;
+  position: relative;
+  top: 20%;
+
+  text-align: left;
+  font-size: 1.5rem;
+}
+#section-couverture img {
+  position: relative;
+  right: 0;
+  margin-left: 1rem;
+  width: 90%;
+  height: 90vh;
+}
+.sections #conteneur {
+  width: 100vw;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.sections {
+  width: 100vw;
+  height: 100%;
+  margin-top: 20%;
+  margin-bottom: 25%;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.sections h3 {
+  margin: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  text-align: left;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+.sections img {
+  margin: 1rem;
+  margin-bottom: 0;
+  width: 65%;
+  height: 60vh;
+  max-height: 90vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.sections article {
+  width: 65%;
+  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.5vw;
+  text-align: center;
+  white-space: pre-line;
+  line-height: 1.5rem;
+  background: rgb(255,255,255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#autre-page {
+  width: 100vw;
+  overflow-x: scroll;
+}
+#autre-page .menu-glissant {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: scroll;
+}
+#plus {
+	margin: 2rem;
+}
+.darkmode #plus {
+	color: white;
+}
+@media screen and (max-width: 980px) {
+  #section-couverture {
+    justify-content: center;
+     flex-flow: column nowrap;
+  }
+  #section-couverture article{
+    height: 90vw;
+  }
+    #section-couverture img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    Display: none;
+    }
+    .sections h3 {
+      margin: 1rem;
+      font-size: 5vw;
+    }
+    .sections img{
+      width: 85vw;
+    }
+    .sections article  {
+        width: 85vw;
+        Font-size: 2vw;
+        text-align: center;
+    }
+}
+
+.darkmode #section-couverture article {
+  background-color: rgb(50, 50, 50);
+}

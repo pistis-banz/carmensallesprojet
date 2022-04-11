@@ -1,0 +1,285 @@
+@import url("composant/header.css");
+@import url("global.css");
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+html body .sections {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap !important;
+  right: 20%;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.sections img {
+  width: 75%;
+  height: 10rem;
+}
+.sections div {
+  position: relative;
+  top: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5vw;
+  text-align: justify;
+  line-height: 1.5;
+  /* background: rgb(55, 71, 79); */
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-radius: 40px 10px 10px 10px;
+  /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); */
+}
+.sections button {
+  margin: 0.5rem;
+  border-radius: 2px;
+  font-weight: bold;
+  border: none;
+  background: rgb(64, 196, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+button:active {
+  background: rgb(24, 255, 255);
+}
+
+#section-couverture {
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: url("../ressources/images/couverture.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#section-couverture img {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+}
+#section-couverture h1,
+#section-couverture h4 {
+  position: relative;
+}
+#section-couverture h1 {
+  color: rgb(24, 255, 255);
+}
+#section-couverture h4 {
+  margin: 2rem;
+  top: 3rem;
+  font-size: 2.5vw;
+  text-align: center;
+  color: rgb(24, 255, 255);
+}
+#section-2{
+  cursor: pointer;
+}
+#section-2,
+#section-prof {
+  margin: 2rem;
+}
+#section-2 img,
+#section-prof img {
+  width: 60%;
+  height: 50% !important;
+}
+#section-2 div,
+#section-prof div {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 60%;
+  min-height: 40%;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+#section-infra {
+  display: grid;
+  place-items: center;
+  background: url("../ressources/images/bati.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section-infra div {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 45%;
+  height: 75%;
+  margin: 1rem;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  border: 0.5rem solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  font-size: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+#section-infra div a {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+#section-infra div a button {
+  margin: 1rem;
+  width: 30ch;
+  height: 6ch;
+  font-size: 0.8rem;
+}
+#section-prof {
+  margin: 1rem;
+}
+#section-prof img {
+  width: 60%;
+  height: 90%;
+  -o-object-fit: initial;
+  object-fit: initial;
+}
+#section-prof div {
+  padding: 5rem;
+  height: 100%;
+}
+
+#section-diplome {
+  height: 70vh;
+  max-width: 100vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+#section-diplome img {
+  width: 50%;
+  height: 50%;
+}
+#section-diplome div {
+  margin: 2rem;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+
+  text-align: center;
+  border-radius: 0;
+}
+#section-diplome div strong {
+  font-weight: 900;
+}
+
+#section-activite {
+  background: url("../ressources/images/camp.jpg") no-repeat center;
+  background-size: cover;
+}
+#section-activite h2 {
+  margin: 1rem;
+  color: white;
+}
+#section-activite div {
+  margin: 2rem;
+  width: 50%;
+  color: white;
+}
+#section-activite a button {
+  margin: 1rem;
+  width: 30ch;
+  height: 6ch;
+}
+
+#section-contact img {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+#section-contact h2 {
+  margin: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+#section-contact div {
+  border-radius: 5px;
+}
+#section-contact .conteneur-coordonnee {
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.btn-email,
+.btn-num,
+.btn-email a,
+.btn-num a {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.conteneur-1 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-contact .conteneur-coordonnee button {
+  width: 30ch;
+  height: 6ch;
+  background: rgb(210, 210, 210);
+  border: 2px solid white;
+  position: static;
+}
+.conteneur-coordonnee button:hover {
+  background: rgb(24, 255, 255) !important;
+  color: rgb(255, 255, 255);
+}
+.btn-contact a {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+.conteneur-coordonnee .btn-contact a:hover {
+  color: white;
+}
+
+@media (max-width: 980px) {
+  #section-couverture h1 {
+    font-size: 4vw;
+  }
+  #section-couverture h4 {
+    font-size: 3vw;
+  }
+
+  #section-infra img {
+    width: 75vw;
+  }
+  #section-infra div {
+    font-size: 3vw;
+  }
+
+  #section-prof div {
+    font-size: 3.5vw;
+    text-align: justify;
+  }
+}
+@media (max-width: 640px) {
+  #section-prof img {
+    width: 90vw;
+  }
+}
+
+.darkmode .sections div {
+  color: white;
+  letter-spacing: 1px;
+}
+.darkmode #section-infra div {
+  color: white;
+  letter-spacing: 1px;
+}
